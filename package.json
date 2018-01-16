@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "rpc": "node ./node_modules/testrpc/index.js"
+    "rpc": "node ./node_modules/testrpc/index.js",
+    "server": "lite-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "lite-server": "^2.3.0",
     "testrpc": "0.0.1"
   },
   "dependencies": {
