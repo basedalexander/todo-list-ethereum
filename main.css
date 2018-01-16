@@ -5,20 +5,23 @@ body {
     font-family: 'Raleway','Source Sans Pro', 'Arial';
 }
 .container {
-    width: 50%;
+    width: 35%;
     margin: 0 auto;
+    text-align: center;
 }
 
 input {
     display: inline-block;
-
-    padding:10px;
-    width: 50%;
+    width: 70%;
+    padding: 10px;
     margin-bottom: 1em;
+
+    font-size: 13px;
 }
 
 button {
     display: inline-block;
+    width: 25%;
 
     margin: 2em 0;
     padding: 1em 4em;
@@ -29,6 +32,7 @@ button {
     width: 60px;
     height: 60px;
     position: relative;
+    top: -30px;
 }
 
 .spinner.hidden {
@@ -46,6 +50,16 @@ button {
 .list-container {
     background: #fff;
     min-height: 300px;
+    margin: 0 auto;
+    width: 35%;
+}
+
+.grocery-list {
+    padding: 20px 56px 20px 56px;
+}
+
+.grocery-list li {
+    font-size: 23px;
 }
 
 .th-border {
