@@ -94,6 +94,13 @@ class Application {
             this.resetForm();
         });
 
+        contract.getList((error, result) => {
+            if (!error) {
+                let list = result.map(item => web3.toAscii(item));
+                this.list.update(list);
+            }
+        });
+
         this.form.subscribeForSubmit(() => this.onSubmitClick());
     }
 
