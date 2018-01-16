@@ -1,0 +1,54 @@
+body {
+    background-color:#F0F0F0;
+    padding: 2em;
+    color: #767070;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input {
+    display: inline-block;
+
+    padding:10px;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+button {
+    display: inline-block;
+
+    margin: 2em 0;
+    padding: 1em 4em;
+}
+
+.spinner {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.spinner.hidden {
+    display: none;
+}
+
+.spinner img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 23px;
+}
+
+.list-container {
+    background: #fff;
+    min-height: 300px;
+}
+
+.th-border {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
